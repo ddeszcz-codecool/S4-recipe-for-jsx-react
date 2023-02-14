@@ -1,13 +1,41 @@
-.container {
-  width: 100hw;
-  display: grid;
-  justify-content: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.item {
-  width: 750px;
+
+body {
+    background: white;
+    padding: 0 16px;
 }
+
 
 ol {
-    padding: 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-block-end: 0;
+}
+
+ul {
+    padding: 1rem;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 0.3rem;
+}
+
+.presentation {
+    height: 100%;
+    width: 38%;
+    margin: 1rem 0 2rem 0;
+    padding-bottom: 2rem;
+    overflow: visible;
+}
+
+
+h2 {
+    font-family: "Times New Roman";
+    color: black;
 }
